@@ -65,7 +65,7 @@ export default function Home() {
   };
 
   return (
-    <div className="relative min-h-screen overflow-hidden" style={{ backgroundColor: 'rgb(230, 230, 230)' }}>
+    <div className="relative max-h-screen overflow-hidden" style={{ backgroundColor: 'rgb(230, 230, 230)' }}>
       {/* 动态波浪背景层 - 使用SVG */}
       <div className="absolute inset-0 flex flex-col justify-end overflow-hidden" style={{ bottom: '-20px' }}>
         {/* 波浪层5 - 最远最浅 */}
